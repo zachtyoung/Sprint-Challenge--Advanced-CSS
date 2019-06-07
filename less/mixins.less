@@ -1,1 +1,16 @@
-// Mixins Here
+.btn-style(@back-color, @font-color, @font-size, @text-align, @border, @radius){
+    background: @back-color;
+    color: @font-color;
+    font-size: @font-size;
+    text-align: @text-align;
+    border: @border;
+    border-radius: @radius;
+}
+.hover-state(@font-color, @back-color){
+    color: @font-color;
+    background: @back-color;
+}
+.img-adjust(@width, @margin){
+    width: @width;
+    margin: @margin;
+}
