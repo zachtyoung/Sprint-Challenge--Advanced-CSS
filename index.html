@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SpaceWalkers</title>
 
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
@@ -15,13 +15,23 @@
 </head>
 
 <body>
-
- <!-- navigation code here -->
+<header class="navigation">
+  <nav>
+    <h1>SpaceWalkers</h1>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+      <a href="#">Sign In</a>
+    </div>
+  </nav>
+</header>
 
   <div class="container home">
 
     <header class="intro">
-       <!-- image code here -->
+      <img src="img/main-header.png" alt="">
 
       <h2>Lift Off</h2>
     
@@ -61,6 +71,16 @@
       </div>
 
     </section>
+    <form action="" class="contact-form">
+      <h1>Subscribe to SpaceWalkers Magazine!</h1>
+            <input class="form-input" type="text" name="firstName" placeholder="First Name">
+            <input class="form-input" type="text" name="lastName" placeholder="Last Name">
+            <input class="form-input" type="email" name="email" placeholder="Email Address">
+            <input class="form-input" type="tel" name="phone" placeholder="Phone Number">
+            <textarea class="message" name="message" placeholder="Message"></textarea>
+            <button class="submitBtn">Subscribe</button>
+        </form>
+
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
